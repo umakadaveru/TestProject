@@ -6,6 +6,10 @@ public class Calculator {
 	{
 	   System.out.println("sum is" +(n1+n2));
 	}
+	public void product()
+	{
+		System.out.println(n1*n2);
+	}
 	public static void main(String args[])
 	{
 		Calculator cObj = new Calculator();
